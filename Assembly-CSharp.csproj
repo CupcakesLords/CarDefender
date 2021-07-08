@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C907CDF0-C82A-5987-ECD0-72B917ABA972}</ProjectGuid>
+    <ProjectGuid>{CB680C57-7B0B-F851-D7CD-F2B46374B47C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,13 +62,13 @@
     <Compile Include="Assets\Scripts\Projectile_Interface\Projectile.cs" />
     <Compile Include="Assets\Scripts\Item_Interface\ItemAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Tile.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Item_Interface\ItemDrag.cs" />
     <Compile Include="Assets\Scripts\Item_Interface\Item.cs" />
     <Compile Include="Assets\Scripts\Slots.cs" />
     <Compile Include="Assets\Scripts\Car\Car.cs" />
     <Compile Include="Assets\Scripts\Bullet\Bullet.cs" />
-    <Compile Include="Assets\Scripts\Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
