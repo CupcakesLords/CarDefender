@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f6b35d37c4a8d3184b3302323fe3a4846ee3a3e2b9a7662916e29e497b60d5b6
-size 487
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "New Car Data Object", menuName = "Car Number")]
+public class CarDataObject : ScriptableObject 
+{
+    public string Name;
+    public int Level;
+    public Sprite Image;
+    public float moneyPS;
+    public float damagePS;
+    public float fireSpeed;
+    public float earning;
+    public float damage;
+    public float buyPrice;
+    public float upgradePrice;
+}

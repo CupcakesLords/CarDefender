@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cb8f24b07a342b901518e51eae7c4f016d69c43427120666c4ba86fc6810c959
-size 504
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0074f1d01a9d98946a8e7d1af6d1df96, type: 3}
+  m_Name: StarParticlePool
+  m_EditorClassIdentifier: 
+  ObjectPrefab:
+  - {fileID: 4916447517427844711, guid: 7e2f3f51eb48c9942a34d3ecb341e508, type: 3}

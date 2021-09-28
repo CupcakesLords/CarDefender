@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2888cda9566fa42662b8915fcc9fadcbd18453a4d7f4885b9d94a3e4dccf0e8b
-size 502
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0074f1d01a9d98946a8e7d1af6d1df96, type: 3}
+  m_Name: DamageTextPool
+  m_EditorClassIdentifier: 
+  ObjectPrefab:
+  - {fileID: 8855119843502058166, guid: 8c810d880594a89498d1bd571b247863, type: 3}

@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:20e7e428d54f46e991b2626ae923f76db42a12fc528523f349246a4d786e86a4
-size 739
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class NoMoneyText : MonoBehaviour
+{
+    public TextMeshProUGUI Text;
+    float Timer;
+
+    private void Awake()
+    {
+        gameObject.SetActive(false);
+        Timer = 1.5f;
+    }
+
+    public void Activate()
+    {
+        Timer = 1.5f;
+        gameObject.SetActive(true);
+    }
+
+    private void Update()
+    {
+        if (Timer > 0)
+        {
+            Timer -= Time.deltaTime;
+        }
+        else
+        {
+            gameObject.SetActive(false);
+            Timer = 1.5f;
+        }
+    }
+
+    public void setText(string txt)
+    {
+        Text.text = txt;
+    }
+}

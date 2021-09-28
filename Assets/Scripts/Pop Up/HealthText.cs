@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7ffefc6d0551a4f3fe1fb7f757623a494b05d6fbb836106b930e56226108ae96
-size 564
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class HealthText : MonoBehaviour
+{
+    GameObject enemy;
+
+    public void SetEnemy(GameObject e)
+    {
+        enemy = e;
+    }
+
+    void Update()
+    {
+        if (enemy != null)
+        {
+            transform.position = Camera.main.WorldToScreenPoint(enemy.transform.position);
+        }
+    }
+
+    public void SetText(int health)
+    {
+        GetComponent<TextMeshProUGUI>().text = health.ToString();
+    }
+}

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd8baabf1cde568b0ac5a4aaffb62f40fecf7410fc8f25179a5409bc3a8ada2e
-size 427
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Explosion : MonoBehaviour
+{
+    public ObjectPool EffectPool;
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
+
+    public void AddToPool()
+    {
+        gameObject.SetActive(false); 
+        EffectPool.AddToQueue(GetComponent<SpriteRenderer>().sprite.name, gameObject); 
+    }
+}

@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dd230087685c9424b8e4b9851acf9040ca9e836c86c775703b2c23183f7b7156
-size 1109
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class StartPopUp : MonoBehaviour
+{
+    private static ObjectPool StarEffect;
+    private static GameObject Effect;
+    public ObjectPool ObjectPrefab;
+    public GameObject EffectPrefab;
+
+    private void Awake()
+    {
+        Effect = EffectPrefab;
+        StarEffect = ObjectPrefab;
+        StarEffect.Init();
+    }
+
+    public static void ShowCoinEffect(Vector3 pos)
+    {
+        string tag = "stars 2";
+        GameObject proj = StarEffect.GetFromQueue(tag);
+        if (proj == null)
+        {
+            GameObject EffectObject = Instantiate(Effect, pos, Quaternion.identity);
+            EffectObject.GetComponent<StartSlide>().Activate(pos);
+        }
+        else
+        {
+            proj.SetActive(true);
+            proj.transform.position = pos;
+            proj.GetComponent<StartSlide>().Activate(pos);
+        }
+    }
+
+    public static void AddToPool(GameObject star)
+    {
+        star.SetActive(false);
+        StarEffect.AddToQueue("stars 2", star);
+    }
+}

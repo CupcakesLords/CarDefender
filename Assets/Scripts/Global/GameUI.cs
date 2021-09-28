@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1c2815b8fc6a52f53a5ac82f44dbc6573bc19ebdb1c1f8cd587b5c82b0d0154c
-size 721
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameUI : MonoBehaviour
+{
+    public static GameUI UISystem;
+    private void Awake()
+    {
+        UISystem = this;
+    }
+
+    public GameObject UITextLevel;
+    public GameObject UITextLose;
+    public GameObject UIShop;
+    public void OpenUIShop()
+    {
+        UIShop.SetActive(true);
+        UIShop.GetComponent<ShopUI>().SetData();
+    }
+    public void CloseUIShop()
+    {
+        UIShop.SetActive(false);
+    }
+
+    public GameObject Purchase;
+
+    public GameObject moneyText;
+
+    public GameObject noMoneyText;
+
+    public GameObject priceText;
+
+    public GameObject levelBoard;
+}

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e66929cc6a88fa561107011f87bd29068db1399f1f657965114979f604efd78
-size 1162
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0074f1d01a9d98946a8e7d1af6d1df96, type: 3}
+  m_Name: BulletPool
+  m_EditorClassIdentifier: 
+  ObjectPrefab:
+  - {fileID: 1011977705881358369, guid: 59ba066c38f269445bb1a8902a80874b, type: 3}
+  - {fileID: 1011977705881358369, guid: 63627338ba7a672488fbf3f657e6e324, type: 3}
+  - {fileID: 1011977705881358369, guid: 549bc0aaadb60364690f9109b55bbf2f, type: 3}
+  - {fileID: 1011977705881358369, guid: 649d0e88bf8b3c74ea0f25589242ebe6, type: 3}
+  - {fileID: 1011977705881358369, guid: 136d4fefcd5535c4e88e647f93bf098d, type: 3}
+  - {fileID: 1011977705881358369, guid: 38f09f91c8b13db4ab69ca360d63b6a5, type: 3}
+  - {fileID: 1011977705881358369, guid: 9840dd78cea528a42a14fbb8d612efd7, type: 3}
+  - {fileID: 1011977705881358369, guid: be03d9d57b97ba94d9ab6f73e018a196, type: 3}
+  - {fileID: 1011977705881358369, guid: 260c76dd3c2eb4442b2e939da375be23, type: 3}

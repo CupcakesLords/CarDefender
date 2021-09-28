@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:03f75e13de19e3b93a38ff38905ac41ee3198e72e6e4300a25054ecf52c7d857
-size 400
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d5a7a2be1bc094388f8f8e2072d91f, type: 3}
+  m_Name: AttackThree
+  m_EditorClassIdentifier: 

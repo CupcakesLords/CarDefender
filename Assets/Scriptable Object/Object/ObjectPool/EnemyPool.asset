@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:796189a41dc0764ed65ba01cda272652d412b8f8497a059c571c2d5812dc8199
-size 1161
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0074f1d01a9d98946a8e7d1af6d1df96, type: 3}
+  m_Name: EnemyPool
+  m_EditorClassIdentifier: 
+  ObjectPrefab:
+  - {fileID: 9150361159437377815, guid: 726ad85ff22ceaa4598e9d4dc8e3ce9e, type: 3}
+  - {fileID: 9150361159437377815, guid: 863e031fd53ecd946b27533f53e91e02, type: 3}
+  - {fileID: 9150361159437377815, guid: 3f88d0dc8b67c5e41becbbcd202ecbd6, type: 3}
+  - {fileID: 9150361159437377815, guid: 7f65ee781e72210498e415b19b7fff29, type: 3}
+  - {fileID: 9150361159437377815, guid: 2c569cdadfc511245b3d676d8cd4ad41, type: 3}
+  - {fileID: 9150361159437377815, guid: dce4d7072f04ef744b993fd061c68a27, type: 3}
+  - {fileID: 9150361159437377815, guid: 2061a16b5860f604cb3d1ab3c1d5d632, type: 3}
+  - {fileID: 9150361159437377815, guid: 9eaee1d0fabec344fa4c5a4e8a4f9ff2, type: 3}
+  - {fileID: 9150361159437377815, guid: 48ef65e1921087e418492337bbd0ccd7, type: 3}

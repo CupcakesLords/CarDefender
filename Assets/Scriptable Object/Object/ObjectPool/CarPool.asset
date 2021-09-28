@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7ecb251962007e4f1c73e867171fde7b216331d6b160745cb3629b39184d4f77
-size 1159
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0074f1d01a9d98946a8e7d1af6d1df96, type: 3}
+  m_Name: CarPool
+  m_EditorClassIdentifier: 
+  ObjectPrefab:
+  - {fileID: 5747559910337933854, guid: 39fa8d0907ef6c440858725c8f4e2872, type: 3}
+  - {fileID: 5747559910337933854, guid: ebe9701221c18e745bc4b061cbdc25a0, type: 3}
+  - {fileID: 5747559910337933854, guid: 15b3a04bb1e4f694ea257fbf8433d43b, type: 3}
+  - {fileID: 5747559910337933854, guid: bd5cc6ba1f463a547ae0b35c96e063ee, type: 3}
+  - {fileID: 5747559910337933854, guid: fd7fdcd27c396fc43b3a9153dc524522, type: 3}
+  - {fileID: 5747559910337933854, guid: 7a1fe99496d5f8f4c8679de10cd61bc2, type: 3}
+  - {fileID: 5747559910337933854, guid: ed02dc173b83386408cc87dbae14058e, type: 3}
+  - {fileID: 5747559910337933854, guid: 3eb0560d329c7c3408f62c1ffa0e981a, type: 3}
+  - {fileID: 5747559910337933854, guid: 349c0848b1bc08347a9891459df7baeb, type: 3}
